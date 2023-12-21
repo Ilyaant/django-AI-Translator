@@ -3,7 +3,6 @@ from django.http import JsonResponse
 from rest_framework.decorators import api_view
 from django.core.files.storage import FileSystemStorage
 
-from easyocr import Reader
 from textblob import TextBlob
     
 @api_view(['POST'])
